@@ -1,0 +1,25 @@
+{
+  "name": "tailwindcss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./src/input.css -o ./build/css/style.css --watch",
+    "prettier": "npx prettier --write **/*.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loique70/tailwindcss.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/loique70/tailwindcss/issues"
+  },
+  "homepage": "https://github.com/loique70/tailwindcss#readme",
+  "devDependencies": {
+    "husky": "^4.3.8",
+    "prettier-plugin-tailwindcss": "^0.1.13"
+  }
+}
